@@ -6,3 +6,4 @@ variable "db-sn-cidr" {}
 variable "web-sn-cidr" {}
 variable "igw_cidr"{}
 variable "instance_type"{}
+variable "user_name"{}

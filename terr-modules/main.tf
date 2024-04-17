@@ -156,3 +156,7 @@ resource "aws_instance" "server" {
     Name = "server- ${count.index+1}"
   }
 }
+
+resource "aws_iam_user" "lb" {
+  name = var.user_name
+}
