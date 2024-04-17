@@ -157,6 +157,3 @@ resource "aws_instance" "server" {
   }
 }
 
-resource "aws_iam_user" "lb" {
-  name = var.user_name
-}
